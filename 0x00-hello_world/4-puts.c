@@ -1,7 +1,7 @@
 # include <stdio.h>
 /*
- *main is the entry point
- *return: made zero means that the program will execute successfully and did what it was intended to do
+ *main: the entry point
+ *return(0):the program will execute successfully 
  */
 int main(void)
 {
