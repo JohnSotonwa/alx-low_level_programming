@@ -1,7 +1,8 @@
 # include <stdio.h>
 /*
  *main: the entry point
- *return(0):program will execute successfully
+ *
+ *return:program will execute successfully
  */
 int main(void) /*entry point*/
 {
