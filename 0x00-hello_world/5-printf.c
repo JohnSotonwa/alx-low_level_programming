@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
- *main - entry point
- *
- *printf - print format
+ * main - entry point
  *
  * Return : run successfully
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
