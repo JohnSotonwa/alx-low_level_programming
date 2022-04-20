@@ -5,7 +5,7 @@
  * Return: no return
  */
 
-void reset_to_98(int *n) /*takes a pointer to a parameter and updates its value*/
+void reset_to_98(int *n) /*takes a pointer to a parameter and updates value*/
 {
 	*n = 98;
 }
