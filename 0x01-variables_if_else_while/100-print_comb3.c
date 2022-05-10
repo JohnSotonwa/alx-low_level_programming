@@ -29,7 +29,7 @@ int main(void)
 			j++;
        		}
 	}
-	putchar(' ');
+	putchar("\n");
 	return (0);
 }
 
