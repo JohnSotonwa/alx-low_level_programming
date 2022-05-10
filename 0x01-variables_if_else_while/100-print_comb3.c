@@ -15,23 +15,19 @@ int main(void)
 		count++;
 	    	j = 48 + count;
 		while (j < 58)
-        {
-
-        if (j!=0 && j!=i)
-        {
-        	putchar(i);
-                putchar(j);
-                putchar(',');
-
-                if (j!=57)
-                {
-	                putchar(' ');
-                }
-	}
-        j++;
-
-        }
-
+		{
+			if (j!=48)
+			{
+				putchar(i);
+				putchar(j);
+				if (i!=56)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			j++;
+       		}
 	}
 	return (0);
 }
