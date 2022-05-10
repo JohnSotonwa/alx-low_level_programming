@@ -9,11 +9,11 @@ int main(void)
 	int i;
 	int j;
         int count;
-	
+
 	for (i = 48; i < 58; i++)
 	{
 		count++;
-	    	j = 48 + count;
+		j = 48 + count;
 
 		while (j < 58)
 		{
@@ -27,9 +27,12 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+
 			}
+
 			j++;
        		}
+
 	}
 	putchar('\n');
 	return (0);
