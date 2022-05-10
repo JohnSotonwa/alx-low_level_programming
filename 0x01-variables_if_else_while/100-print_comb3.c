@@ -9,16 +9,19 @@ int main(void)
 	int i;
 	int j;
         int count;
+	
 	for (i = 48; i < 58; i++)
 	{
 		count++;
 	    	j = 48 + count;
+		
 		while (j < 58)
 		{
 			if (j!=48)
 			{
 				putchar(i);
 				putchar(j);
+				
 				if (i!=56)
 				{
 					putchar(',');
