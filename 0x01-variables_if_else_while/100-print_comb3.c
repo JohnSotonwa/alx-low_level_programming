@@ -8,7 +8,7 @@ int main(void)
 {
 	int i;
 	int j;
-        int count;
+	int count;
 
 	for (i = 48; i < 58; i++)
 	{
@@ -31,8 +31,7 @@ int main(void)
 			}
 
 			j++;
-
-       		}
+		}
 
 	}
 
