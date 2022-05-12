@@ -1,38 +1,41 @@
 #include <stdio.h>
-
 /**
- * main - Prints numbers between 00 to 89.
+ * main - Prints numbers between 0 to 9 and letters between a to f.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-		int i, e;
+	int i;
+	int j;
+	int count;
 
-		i = 48;
-		e = 48;
+	for (i = 48; i < 58; i++)
+	{
+		count++;
+		j = 48 + count;
 
-		while (e < 58)
+		while (j < 58)
 		{
-			i = 48;
-			while (i < 58)
+			if (j != 48)
 			{
-				if (e != i && e < i)
-																									{
-																										putchar(e);
-																										putchar(i);
-																										if (i == 57 && e == 56)
-																										{
-																																																break;
-																										}
-																										putchar(',');
-					 																																										putchar(' ');
-																																														}
-				i++;
-																								}
-	 		e++;
-		}
-		putchar('\n');
-		return (0);
-}
+				putchar(i);
+				putchar(j);
 
+				if (i != 56)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+
+			}
+
+			j++;
+		}
+
+	}
+
+	putchar('\n');
+	return (0);
+
+}
