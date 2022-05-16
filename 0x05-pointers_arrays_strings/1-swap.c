@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *swap_int(int *a, int *b) - swaps values of both integers
+ *swap_int() - swaps values of both integers
  *@a : integer 1
  *@b : integer 2
  *Return : no return
  */
-void swap_int(int *a, int *b) /*swaps value of integers*/
+void swap_int(int *a, int *b)
 {
 	int c = *a;
 	*a = *b;
